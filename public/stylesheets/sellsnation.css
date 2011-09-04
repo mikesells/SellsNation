@@ -1,0 +1,128 @@
+body, html
+{
+	margin: 0;
+	padding: 0;
+	background: #a7a09a;
+	color: #000;
+}
+body
+{
+	min-width: 760px;
+}
+#wrap
+{
+	background: white;
+	margin: 0 auto;
+	width: 860px;
+}
+header
+{
+	width: 860px;
+	background-color: #990033;
+	color: #CCCCCC;
+	font-family: Trebuchet MS;
+}
+#header-left
+{
+	background-color: inherit;
+	float: left;
+	width: auto;
+	color: #CCCCCC;
+	font-size: 2em;
+	font-weight: bold;
+	padding: 6px 0 6px 10px;
+}
+#header-right
+{
+	background-color: inherit;
+	float: right;
+	color: #CCCCCC;
+	font-family: Trebuchet MS;
+	font-size: 1.5em;
+	font-weight: bold;
+	padding: 6px 6px 6px 10px;
+}
+
+#content
+{
+	font-family: Trebuchet MS;
+	width: 849px;
+	margin: 4px;
+	border: solid 2px #FFFFFF;
+}
+
+#content-side
+{
+	float: left;
+	width: 174px;
+	height: 100%;
+	padding: 4px;
+	background-color: #FFFFFF;
+	border: solid 1px gray;
+}
+#content-side-viewing
+{
+	float: left;
+	width: 174px;
+	height: 100%;
+	padding: 4px;
+	margin-top: 4px;
+	background-color: #FFFFFF;
+	border: solid 1px gray;
+}
+#content-main
+{
+	float: right;
+	background-color: #FFFFFF;
+	margin: 0 0px 0 4px;
+	padding: 4px;
+	width: 650px;
+	height: 100%;
+	border: solid 1px gray;
+	line-height: 160%;
+}
+#family-header 
+{
+	text-align:center;
+	font-size:2em;
+	font-weight:bold;
+}
+#footer
+{
+	width: 860px;
+	background-color: #990033;
+	color: #CCCCCC;
+	font-family: Trebuchet MS;
+}
+#foot-nav
+{
+	margin-top: 6px;
+	text-align: center;
+}
+a.FootLinks:link, a.FootLinks:visited
+{
+	color: #DDD;
+	text-decoration: none;
+	padding: 6px;
+}
+a.FootLinks:hover
+{
+	color: #E77A00;
+	padding: 6px;
+}
+#foot-icons
+{
+	float: left;
+	background-color: #990033;
+}
+#foot-fake-dba
+{
+	float: right;
+	background-color: #990033;
+	padding: 6px 6px 6px 10px;
+}
+#foot-foot
+{
+	clear:both;
+	background-color: #990033;
+}
